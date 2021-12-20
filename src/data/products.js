@@ -29,4 +29,19 @@ export default [
     price: '40000',
     image: 'https://cryptocurrency.tech/wp-content/uploads/2020/01/binance-futures.png',
   },
+  {
+    name: 'Видеокарта GIGABYTE AORUS RTX 3090 MASTER 24G ',
+    price: '416 999',
+    image: 'https://www.gigabyte.com/FileUpload/Global/KeyFeature/1621/innergigabyteimages/kf-img.png',
+  },
+  {
+    name: 'Вода минеральная природная лечебно-столовая питьевая газированная "Есентуки 4"',
+    price: '59',
+    image: 'https://www.aqualeader.ru/images/stories/virtuemart/product/4605674000064.webp',
+  },
+  {
+    name: 'Шоколадный батончик Nuts Duo 66 г',
+    price: '49',
+    image: 'https://imgproxy.sbermarket.ru/imgproxy/size-500-500/aHR0cHM6Ly9zYmVybWFya2V0LnJ1L3NwcmVlL3Byb2R1Y3RzLzgzNDM1L29yaWdpbmFsLzg5NjE2LmpwZWc_MTYxNzg5ODY4Mw.jpg',
+  },
 ];
