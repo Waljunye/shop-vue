@@ -67,7 +67,7 @@ export default {
       return this.page === 1;
     },
     isToNextPageHidden() {
-      return this.page === (this.count / this.perPage);
+      return this.count / this.perPage === 0 ? true : this.page === (this.count / this.perPage);
     },
   },
 };
