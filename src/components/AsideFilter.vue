@@ -11,7 +11,7 @@
             type="number"
             name="min-price"
             value="0"
-            v-model="currentPriceFrom">
+            v-model.number="currentPriceFrom">
           <span class="form__value">От</span>
         </label>
         <label class="form__label form__label--price">
@@ -20,7 +20,7 @@
             type="number"
             name="max-price"
             value="12345"
-            v-model="currentPriceTo">
+            v-model.number="currentPriceTo">
           <span class="form__value">До</span>
         </label>
       </fieldset>
