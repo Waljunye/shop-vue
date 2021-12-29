@@ -174,6 +174,8 @@ export default {
       this.currentPriceFrom = 0;
       this.$emit('update:categoryId', 0);
       this.currentCategoryId = 0;
+      this.$emit('update:colorId', 0);
+      this.currentColorId = 0;
     },
   },
   computed: {
