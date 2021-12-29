@@ -5,6 +5,7 @@ export default [
     price: '3690',
     image: '/img/radio.jpg',
     category: [1],
+    colors: [2, 3, 4],
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export default [
     price: '1749.99',
     image: 'https://i.ytimg.com/vi/auqEcCJ3m5M/maxresdefault.jpg',
     category: [1, 2],
+    colors: [1],
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export default [
     price: '1000000000',
     image: 'https://yt3.ggpht.com/ytc/AKedOLQlsO4M7euEauB5gnkAMbpjpF8NYhgZKyNrgfo-Dg=s176-c-k-c0x00ffffff-no-rj-mo',
     category: [1],
+    colors: [1, 2],
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export default [
     price: '435',
     image: 'https://itc.ua/wp-content/uploads/2021/03/valheim.jpg',
     category: [2],
+    colors: [2, 3],
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export default [
     price: '36900',
     image: '/img/radio.jpg',
     category: [1],
+    colors: [2, 3, 4],
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export default [
     price: '40000',
     image: 'https://cryptocurrency.tech/wp-content/uploads/2020/01/binance-futures.png',
     category: [1],
+    colors: [5],
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export default [
     price: '416 999',
     image: 'https://www.gigabyte.com/FileUpload/Global/KeyFeature/1621/innergigabyteimages/kf-img.png',
     category: [1, 2],
+    colors: [4, 6],
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ export default [
     price: '59',
     image: 'https://www.aqualeader.ru/images/stories/virtuemart/product/4605674000064.webp',
     category: [3],
+    colors: [3],
   },
   {
     id: 9,
@@ -61,5 +69,6 @@ export default [
     price: '49',
     image: 'https://imgproxy.sbermarket.ru/imgproxy/size-500-500/aHR0cHM6Ly9zYmVybWFya2V0LnJ1L3NwcmVlL3Byb2R1Y3RzLzgzNDM1L29yaWdpbmFsLzg5NjE2LmpwZWc_MTYxNzg5ODY4Mw.jpg',
     category: [3],
+    colors: [1, 5],
   },
 ];

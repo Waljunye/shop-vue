@@ -15,40 +15,16 @@
             </span>
     <form>
       <ul class="colors colors--black">
-        <li class="colors__item">
+        <li class="colors__item" v-for="colorId in product.colors" :key="colorId">
           <label class="colors__label">
             <input
               class="colors__radio sr-only"
               type="radio"
               name="color-1"
-              value="#73B6EA"
+              :value="colors[colorId -  1].color"
               checked="checked"
               v-model="color">
-            <span class="colors__value" style="background-color: #73B6EA;">
-                    </span>
-          </label>
-        </li>
-        <li class="colors__item">
-          <label class="colors__label">
-            <input
-              class="colors__radio sr-only"
-              type="radio"
-              name="color-1"
-              value="#8BE000"
-              v-model="color">
-            <span class="colors__value" style="background-color: #8BE000;">
-                    </span>
-          </label>
-        </li>
-        <li class="colors__item">
-          <label class="colors__label">
-            <input
-              class="colors__radio sr-only"
-              type="radio"
-              name="color-1"
-              value="#222"
-              v-model="color">
-            <span class="colors__value" style="background-color: #222;">
+            <span class="colors__value" :style="{backgroundColor: colors[colorId -  1].color}">
                     </span>
           </label>
         </li>
@@ -58,13 +34,20 @@
 </template>
 
 <script>
+import colors from '../data/colors';
+
 export default {
   name: 'CatalogItem',
   props: ['product'],
   data() {
     return {
-      color: '#73B6EA',
+      color: colors[this.product.colors[0] - 1].color,
     };
+  },
+  computed: {
+    colors() {
+      return colors;
+    },
   },
 };
 </script>

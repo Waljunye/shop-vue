@@ -67,9 +67,10 @@ export default {
       return this.page === 1;
     },
     isToNextPageHidden() {
-      return Math.round(this.count / this.perPage) === 1
+      // eslint-disable-next-line no-bitwise
+      return Math.round(this.count / this.perPage) === 1 && this.count / this.perPage < 1
         ? true
-        : this.page === (this.count / this.perPage);
+        : this.page === Math.ceil(this.count / this.perPage);
     },
   },
 };
